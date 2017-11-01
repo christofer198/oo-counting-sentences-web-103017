@@ -18,9 +18,8 @@ class String
   end
 
   def count_sentences
-    count = 0 
+    count = 0
     arr.collect {|x| count += 1 if x.end_with?(".", "?","!")==true}
     count
-
   end
 end
