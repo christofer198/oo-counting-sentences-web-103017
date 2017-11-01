@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    return true if self.String[-1] == true
+    return true if self.String[-1] == "."
     return false
   end
 
