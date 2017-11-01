@@ -2,7 +2,7 @@ require 'pry'
 
 class String
 
-  def sentence?
+  def sentence?(String)
     return true if self.String[-1] == "."
     return false
   end
